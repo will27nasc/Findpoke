@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 10px;
+    width: 18rem;
+    text-align: justify;
+}
+
+.box {
+    margin: auto;
+    max-height: 700px;
+}
+
+#tittle {
+    text-align: center;
+    padding: 15px 5px;
+    background: linear-gradient(178deg,#907ad6 0%, #dabfff 80%);
+}
+
+.pokemon-boxes {
+    flex-wrap: wrap;
+}
+
+.informacoes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffc4;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.botao {
+    margin-top: 15px;
+}
+
+
+
+
+
